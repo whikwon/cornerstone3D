@@ -441,9 +441,6 @@ async function run() {
 
   renderingEngine.setViewports(viewportInputArray);
 
-  // Set the volume to load
-  volume.load();
-
   // Set volumes on the viewports
   await setVolumesForViewports(
     renderingEngine,
